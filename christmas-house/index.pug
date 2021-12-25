@@ -1,0 +1,38 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    link(rel="stylesheet", href="./main.scss")
+  body
+    .star-container
+      each _, i in Array(500)
+        div.star
+    div.moon-glow
+    div.moon
+      div.moon__shadow
+      div.moon__shadow
+      div.moon__shadow
+    div.ground
+    div.house
+      div.house__front-wall
+        div.house__window
+        div.house__door
+      div.house__side-wall
+        div.house__window
+        div.house__window
+    div.tree
+      div.tree__ornament
+      div.tree__ornament
+      div.tree__ornament
+      div.tree__shadow
+      div.tree__star-glow
+      div.tree__star
+
+
+    .snow-container
+      each _, i in Array(250)
+        div.snow
+
+    div.hill
+
+    script(src="./main.js")
